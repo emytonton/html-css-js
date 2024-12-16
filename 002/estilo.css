@@ -1,44 +1,43 @@
-* {
+/* Estilo Geral */
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Estilo do corpo da página */
-  body {
     font-family: Arial, sans-serif;
   }
-
-  header{
-    background-color: #A2DDF0;
-  text-align: center;
-  padding: 20px;
-  font-size: 1.5em;
-  border: 1px solid #000;
-  }
-
-  footer {
-    background-color: #C6F5C6;
+  
+  header {
+    background-color: #87CEEB;
     text-align: center;
-    padding: 15px;
-    border: 1px solid #000;
-    clear: both;
+    padding: 20px 0;
   }
-
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex; /* Ativa o Flexbox */
+  }
+  
   .menu {
-    width: 33.33%;
-    float: left;
-    background-color: #FFEFAA;
+    flex: 1; /* Ocupa 1 parte do espaço */
     height: 300px;
-    padding: 20px;
-    border: 1px solid #000;
+    background-color: #FFFACD;
+    box-sizing: border-box;
+    padding: 10px;
   }
-
+  
   .conteudo {
-    width: 66.66%;
-    float: left;
-    background-color: #F5BABA;
+    flex: 2; /* Ocupa 2 partes do espaço */
     height: 300px;
-    padding: 20px;
-    border: 1px solid #000;
+    background-color: #F08080;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
   }
+  
+  footer {
+    background-color: #98FB98;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
