@@ -1,0 +1,33 @@
+body{
+
+    font-family: 'Helvetica, Arial, sans-serif';
+}
+
+header{
+    background-color: #1282A2;
+}
+
+header nav ul li a {
+    color: #FEFCFB;
+    text-decoration: none;
+  }
+
+main section h2{
+    color: #001F54;
+}
+
+.date {
+    font-size: 14px;
+    font-style: italic;
+    color: #034078;
+  }
+
+  #artigos-em-destaque ul li:nth-child(odd) {
+    background-color: #B0E3F1;
+  }
+    
+
+  h3 a {
+    color: #1282A2;
+    text-decoration: none;
+  }
