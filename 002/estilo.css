@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo do corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  header{
+    background-color: #A2DDF0;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+  border: 1px solid #000;
+  }
+
+  footer {
+    background-color: #C6F5C6;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #000;
+    clear: both;
+  }
+
+  .menu {
+    width: 33.33%;
+    float: left;
+    background-color: #FFEFAA;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #000;
+  }
+
+  .conteudo {
+    width: 66.66%;
+    float: left;
+    background-color: #F5BABA;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #000;
+  }
